@@ -24,5 +24,6 @@ openscap_policies_rhel7:
   - policy_id: 1
 #    profile_id: xccdf_org.ssgproject.content_profile_stig-rhel7-server-upstream
     profile_id: xccdf_org.ssgproject.content_profile_pci-dss
-    content_path: /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
+#    content_path: /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
+    content_path: /usr/share/xml/scap/ssg/content/ssg-rhel7-pci-dss-tailored.xml
     download_path: /compliance/policies/1/content
